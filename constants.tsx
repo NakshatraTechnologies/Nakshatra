@@ -94,9 +94,9 @@ export const SERVICES: ServiceItem[] = [
 ];
 
 export const STATS: StatItem[] = [
-  { value: '5+', label: 'Clients Catered Globally', icon: Globe },
+  { value: '11+', label: 'Clients Catered Globally', icon: Globe },
   { value: '2+', label: 'Years Experience', icon: Users },
-  { value: '10+', label: 'Custom Projects Delivered', icon: Code },
+  { value: '12+', label: 'Custom Projects Delivered', icon: Code },
   { value: '5', label: 'Expert Builders', icon: Users },
 ];
 
