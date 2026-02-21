@@ -4,7 +4,7 @@ import React from 'react';
 const WhatsAppButton: React.FC = () => {
   return (
     <a
-      href="https://wa.me/916263863343?text=Hi%20Nakshatra%20Technologies!%20I%27m%20interested%20in%20your%20services."
+      href="https://wa.me/918975221255?text=Hi%20Nakshatra%20Technologies!%20I%27m%20interested%20in%20your%20services."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-8 left-8 z-50 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg shadow-green-500/40 hover:scale-110 transition-all group"

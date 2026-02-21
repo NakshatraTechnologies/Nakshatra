@@ -106,17 +106,23 @@ const Footer: React.FC<FooterProps> = ({ onOpenWriteForUs }) => {
             </div>
 
             <div className="space-y-4 pt-2">
+              <a href="tel:+918975221255" className="flex items-center gap-3 text-sm text-white hover:text-blue-300 transition-colors group">
+                <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500 transition-colors border border-blue-400/30">
+                   <Phone size={16} />
+                </div>
+                <span className="font-medium">+91 8975221255</span>
+              </a>
               <a href="tel:+916263863343" className="flex items-center gap-3 text-sm text-white hover:text-blue-300 transition-colors group">
                 <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500 transition-colors border border-blue-400/30">
                    <Phone size={16} />
                 </div>
                 <span className="font-medium">+91 6263863343</span>
               </a>
-              <a href="mailto:nakshatra@gmail.com" className="flex items-center gap-3 text-sm text-white hover:text-blue-300 transition-colors group">
+              <a href="mailto:nakshatratechnologies0425@gmail.com" className="flex items-center gap-3 text-sm text-white hover:text-blue-300 transition-colors group">
                 <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:bg-blue-500 transition-colors border border-blue-400/30">
                    <Mail size={16} />
                 </div>
-                <span className="font-medium">nakshatra@gmail.com</span>
+                <span className="font-medium">nakshatratechnologies0425@gmail.com</span>
               </a>
             </div>
 

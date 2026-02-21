@@ -112,7 +112,7 @@ const GetQuoteModal: React.FC<GetQuoteModalProps> = ({ isOpen, onClose }) => {
                 <Mail size={18} className="text-blue-500"/>
                 <div>
                   <p className="text-xs text-slate-500 font-bold uppercase">Contact us</p>
-                  <p className="font-semibold text-sm">nakshatra@gmail.com</p>
+                  <p className="font-semibold text-sm">nakshatratechnologies0425@gmail.com</p>
                 </div>
               </div>
             </div>

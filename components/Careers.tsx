@@ -81,7 +81,7 @@ const Careers: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="mailto:nakshatra@gmail.com?subject=Career Inquiry - Nakshatra Technologies"
+                href="mailto:nakshatratechnologies0425@gmail.com?subject=Career Inquiry - Nakshatra Technologies"
                 className="bg-white text-purple-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition-all shadow-xl hover:-translate-y-1 inline-flex items-center justify-center gap-2 group"
               >
                 <Mail size={20} />
