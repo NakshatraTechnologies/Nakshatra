@@ -128,10 +128,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenQuote }) => {
         <div className="flex justify-between items-center h-16 relative z-50">
           
           <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer">
-            <svg className="h-9 w-9 md:h-10 md:w-10 mr-2" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 0L24 16L40 20L24 24L20 40L16 24L0 20L16 16L20 0Z" className="fill-blue-600" />
-              <path d="M20 5L22 18L35 20L22 22L20 35L18 22L5 20L18 18L20 5Z" className="fill-orange-500 opacity-80" />
-            </svg>
+            <img src="/logo.png" alt="Nakshatra Logo" className="h-10 md:h-12 w-auto mr-2 object-contain" />
             <div className={`flex flex-col ${scrolled || activeDropdown ? 'text-gray-900' : 'text-white'}`}>
               <span className="font-bold text-lg md:text-2xl tracking-tight leading-none">NAKSHATRA</span>
               <span className="text-[10px] md:text-xs font-medium tracking-wider text-blue-500">Technologies</span>

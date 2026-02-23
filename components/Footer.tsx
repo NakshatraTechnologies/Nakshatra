@@ -83,10 +83,7 @@ const Footer: React.FC<FooterProps> = ({ onOpenWriteForUs }) => {
           <div className="xl:col-span-3 space-y-8">
             <Link to="/" className="flex items-center gap-3">
                <div className="relative">
-                 <svg className="h-12 w-12" viewBox="0 0 40 40" fill="none">
-                    <path d="M20 0L24 16L40 20L24 24L20 40L16 24L0 20L16 16L20 0Z" className="fill-blue-400" />
-                    <path d="M20 5L22 18L35 20L22 22L20 35L18 22L5 20L18 18L20 5Z" className="fill-orange-500 opacity-90" />
-                 </svg>
+                 <img src="/logo.png" alt="Nakshatra Logo" className="h-12 w-auto object-contain" />
                </div>
                <div className="flex flex-col">
                  <span className="font-bold text-3xl text-white leading-none tracking-tight font-display">NAKSHATRA</span>
